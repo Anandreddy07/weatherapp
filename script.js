@@ -38,8 +38,6 @@ submitbutton.addEventListener("click", (e) => {
 
 inputcityName.addEventListener("keypress",(e)=>{
   if(e.key=="Enter"){
-    // document.getElementById("submitbutton").click()
-    // both are same
    submitbutton.click()
   }
 })
